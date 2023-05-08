@@ -1,0 +1,115 @@
+.initialize{
+  margin-top: 50px;
+  border: 2px cyan solid;
+  box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.3);
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+}
+
+.initialize:hover{
+  box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.5);
+}
+
+.initialize h1{
+  font-size: 40px;
+}
+
+.initialize label{
+  font-size: 20px;
+}
+
+.initialize input{
+  height: 20px;
+}
+
+p.warning{
+  color: white;
+  font-size: smaller;
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 5px;
+  margin-bottom: -2px;
+}
+
+/* Especiales */
+
+
+/* Input tamanio de matriz */
+.input {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(40,40,40);
+  box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+  border-radius: 0.4vw;
+  border: none;
+  outline: none;
+  padding: 0.4vw;
+  max-width: 190px;
+  transition: .4s;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.3);
+}
+
+.input:hover {
+  box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.4);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 .15vw skyblue;
+}
+/* Fin matriz tamanio de matriz */
+
+/* Inicio boton crear matriz */
+button {
+  height: 50px;
+  margin: 5px;
+  width: 120px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404C5D 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #41465B, 
+               5px  5px 15px #41465B, 
+    inset      5px  5px 10px #212121, 
+    inset     -5px -5px 10px #212121;
+  box-shadow: -1px -5px 15px #41465B, 
+               5px  5px 15px #41465B, 
+    inset      5px  5px 10px #212121, 
+    inset     -5px -5px 10px #212121;
+}
+
+button:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e,
+                    -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e,
+             -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+button:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e,
+                     -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e,
+             -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+/* Boton crear matriz*/

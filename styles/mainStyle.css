@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  color:white;
+
+  text-align: center;
+
+  font-family: "Consolas", "Inconsolata", "Fira Code", "Source Code Pro", "monospace";
+}
+
+::selection{
+  background-color: white;
+  color: black;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+hr{
+  border-color: cyan;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
