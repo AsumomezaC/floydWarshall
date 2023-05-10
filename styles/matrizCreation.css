@@ -1,3 +1,21 @@
+/* Titulo */
+.matrixTitle{
+  color: orange;
+  position: relative;
+  align-self: flex-start;
+  text-align: start;
+  left: -30%;
+}
+
+/* Matriz general */
+div.formato-inicial{
+  align-self: flex-start;
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Formato matriz input */
 .input-matrix{
   margin: 3px;
   width: 40px;
